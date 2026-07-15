@@ -1,0 +1,14 @@
+[project]
+name = "dev-journal"
+version = "0.1.0"
+description = "A CLI tool for weekly engineering journals, summaries, and reflection."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Weekly Projects" }]
+
+[project.scripts]
+dev-journal = "dev_journal.cli:main"
+
+[tool.ruff]
+line-length = 100
